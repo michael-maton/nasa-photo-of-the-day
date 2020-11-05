@@ -11,3 +11,103 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+/* * {
+  border: 1px solid black;
+} */
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid black; */
+}
+.closeBtn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid black; */
+  height: 50px;
+  width: 50px;
+}
+
+.picture-title {
+  font-size: calc(10px + 2vmin);
+}
+.highDef, button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  width: 10rem;
+  font-size: calc(1px + 1vmin);
+  background-color: white;
+  color: black;
+  height: 2.5rem;
+  border: solid rgba(255,255,255,0.3);
+  margin-bottom: 1rem;
+  text-decoration: none;
+}
+button {
+  font-size: calc(0.5px + 1vmin);
+}
+.highDef:hover, button:hover {
+  cursor: pointer;
+  transform: scale(1);
+  opacity:10;
+  transition: all 1s;
+  background-color: rgb(77, 77, 77);
+}
+.date {
+  display: flex;
+  justify-content: flex-end;
+  font-size: calc(1px + 1vmin);
+  width: 70vh;
+}
+.explanation {
+  display: flex;
+  justify-content: center;
+  font-size: calc(1px + 1vmin);
+  width: 70vh;
+  height: 20vh;
+  /* border: 1px solid black; */
+} 
