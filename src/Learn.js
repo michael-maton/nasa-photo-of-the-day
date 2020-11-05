@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 export default function Learn(props) {
     const { close } = props
 
     return(
-            <button onClick={close}>Close</button>
+        <button onClick={close}>Close</button>
     );
 }
